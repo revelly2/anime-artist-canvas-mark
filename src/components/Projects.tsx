@@ -16,16 +16,16 @@ const Projects = () => {
       description: "A sleek and functional calculator application with basic arithmetic operations, memory functions, and a responsive design for all devices.",
       tech: ["React", "JavaScript", "CSS3", "Math.js"],
       image: "placeholder",
-      github: "#",
-      live: "#"
+      github: "https://github.com/markdaluson/calculator-app",
+      live: "https://calculator-app-mark.vercel.app/"
     },
     {
       title: "Currency Converter",
       description: "A real-time currency converter supporting PHP to multiple currencies (USD, CNY, EUR, JPY) with live exchange rates and intuitive interface.",
       tech: ["React", "TypeScript", "API Integration", "Tailwind CSS"],
       image: "placeholder",
-      github: "#",
-      live: "#"
+      github: "https://github.com/markdaluson/currency-converter",
+      live: "https://currency-converter-mark.vercel.app/"
     }
   ];
 
