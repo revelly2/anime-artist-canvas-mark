@@ -38,13 +38,12 @@ const About = () => {
           </div>
 
           <div className="relative">
-            <div className="w-full h-96 bg-gradient-to-br from-purple-500/20 to-blue-500/20 rounded-2xl border border-purple-500/30 flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-32 h-32 bg-gradient-to-br from-blue-400 to-purple-400 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-3xl font-bold text-white">MD</span>
-                </div>
-                <p className="text-gray-300">Profile Image Placeholder</p>
-              </div>
+            <div className="w-full h-96 bg-gradient-to-br from-purple-500/20 to-blue-500/20 rounded-2xl border border-purple-500/30 overflow-hidden">
+              <img 
+                src="/lovable-uploads/6f6b7c81-715d-4913-8e19-b4ab65078f9f.png" 
+                alt="Mark Carevin Daluson" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>

@@ -4,10 +4,10 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Anime Discovery App",
-      description: "A React-based web application for discovering and tracking anime series with user ratings and reviews.",
-      tech: ["React", "TypeScript", "Tailwind CSS", "API Integration"],
-      image: "placeholder",
+      title: "Student Todo List",
+      description: "A comprehensive task management application for students with smart organization features, priority levels, and due date tracking.",
+      tech: ["React", "TypeScript", "Tailwind CSS", "Local Storage"],
+      image: "/lovable-uploads/f6ac1d98-05a6-41cf-8eb4-e1a107b4f320.png",
       github: "#",
       live: "#"
     },
@@ -20,9 +20,9 @@ const Projects = () => {
       live: "#"
     },
     {
-      title: "Task Management System",
-      description: "A full-stack task management application with user authentication and real-time updates.",
-      tech: ["Node.js", "Express", "MongoDB", "React"],
+      title: "Anime Discovery App",
+      description: "A React-based web application for discovering and tracking anime series with user ratings and reviews.",
+      tech: ["React", "TypeScript", "Tailwind CSS", "API Integration"],
       image: "placeholder",
       github: "#",
       live: "#"
@@ -45,13 +45,21 @@ const Projects = () => {
               key={index}
               className="bg-slate-900/50 rounded-xl overflow-hidden border border-purple-500/20 hover:border-purple-400/40 transition-all duration-300 group hover:transform hover:scale-105"
             >
-              <div className="h-48 bg-gradient-to-br from-purple-500/20 to-blue-500/20 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-400 rounded-lg mx-auto mb-2 flex items-center justify-center">
-                    <span className="text-xl font-bold text-white">P{index + 1}</span>
+              <div className="h-48 bg-gradient-to-br from-purple-500/20 to-blue-500/20 flex items-center justify-center overflow-hidden">
+                {project.image === "placeholder" ? (
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-400 rounded-lg mx-auto mb-2 flex items-center justify-center">
+                      <span className="text-xl font-bold text-white">P{index + 1}</span>
+                    </div>
+                    <p className="text-gray-400 text-sm">Project Preview</p>
                   </div>
-                  <p className="text-gray-400 text-sm">Project Preview</p>
-                </div>
+                ) : (
+                  <img 
+                    src={project.image} 
+                    alt={project.title}
+                    className="w-full h-full object-cover"
+                  />
+                )}
               </div>
               
               <div className="p-6">
