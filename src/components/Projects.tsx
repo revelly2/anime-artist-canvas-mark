@@ -17,7 +17,7 @@ const Projects = () => {
       tech: ["React", "JavaScript", "CSS3", "Math.js"],
       image: "placeholder",
       github: "https://github.com/markdaluson/calculator-app",
-      live: "https://calculator-app-mark.vercel.app/"
+      live: "https://fluffy-pink-math-magic.vercel.app/"
     },
     {
       title: "Currency Converter",
@@ -25,7 +25,7 @@ const Projects = () => {
       tech: ["React", "TypeScript", "API Integration", "Tailwind CSS"],
       image: "placeholder",
       github: "https://github.com/markdaluson/currency-converter",
-      live: "https://currency-converter-mark.vercel.app/"
+      live: "https://phpconverter-sigma.vercel.app/"
     }
   ];
 
