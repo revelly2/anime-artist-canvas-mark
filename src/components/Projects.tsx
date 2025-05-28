@@ -1,3 +1,4 @@
+
 import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
@@ -11,17 +12,17 @@ const Projects = () => {
       live: "https://study-streak-todo.vercel.app/"
     },
     {
-      title: "Portfolio Website",
-      description: "A responsive portfolio website showcasing my projects and skills with anime-inspired design elements.",
-      tech: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
+      title: "Calculator App",
+      description: "A sleek and functional calculator application with basic arithmetic operations, memory functions, and a responsive design for all devices.",
+      tech: ["React", "JavaScript", "CSS3", "Math.js"],
       image: "placeholder",
       github: "#",
       live: "#"
     },
     {
-      title: "Anime Discovery App",
-      description: "A React-based web application for discovering and tracking anime series with user ratings and reviews.",
-      tech: ["React", "TypeScript", "Tailwind CSS", "API Integration"],
+      title: "Currency Converter",
+      description: "A real-time currency converter supporting PHP to multiple currencies (USD, CNY, EUR, JPY) with live exchange rates and intuitive interface.",
+      tech: ["React", "TypeScript", "API Integration", "Tailwind CSS"],
       image: "placeholder",
       github: "#",
       live: "#"
