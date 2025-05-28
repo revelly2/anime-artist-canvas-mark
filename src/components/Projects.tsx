@@ -1,4 +1,3 @@
-
 import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
@@ -9,7 +8,7 @@ const Projects = () => {
       tech: ["React", "TypeScript", "Tailwind CSS", "Local Storage"],
       image: "/lovable-uploads/f6ac1d98-05a6-41cf-8eb4-e1a107b4f320.png",
       github: "#",
-      live: "#"
+      live: "https://study-streak-todo.vercel.app/"
     },
     {
       title: "Portfolio Website",
