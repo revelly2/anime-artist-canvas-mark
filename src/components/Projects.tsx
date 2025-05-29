@@ -15,7 +15,7 @@ const Projects = () => {
       title: "Calculator App",
       description: "A sleek and functional calculator application with basic arithmetic operations, memory functions, and a responsive design for all devices.",
       tech: ["React", "JavaScript", "CSS3", "Math.js"],
-      image: "placeholder",
+      image: "/lovable-uploads/4b865728-b6d0-429b-9f15-fb7a8b653063.png",
       github: "https://github.com/markdaluson/calculator-app",
       live: "https://fluffy-pink-math-magic.vercel.app/"
     },
@@ -23,9 +23,17 @@ const Projects = () => {
       title: "Currency Converter",
       description: "A real-time currency converter supporting PHP to multiple currencies (USD, CNY, EUR, JPY) with live exchange rates and intuitive interface.",
       tech: ["React", "TypeScript", "API Integration", "Tailwind CSS"],
-      image: "placeholder",
+      image: "/lovable-uploads/27a1477d-9bf6-47f4-a51d-31cc38a0102e.png",
       github: "https://github.com/markdaluson/currency-converter",
       live: "https://phpconverter-sigma.vercel.app/"
+    },
+    {
+      title: "Employee Manager",
+      description: "A comprehensive employee management system for efficiently managing team data, departments, and organizational structure with intuitive interface.",
+      tech: ["React", "TypeScript", "Tailwind CSS", "Employee Management"],
+      image: "/lovable-uploads/a56d8080-c764-41b3-bad2-5871f9dbbb1b.png",
+      github: "#",
+      live: "https://vercel.com/carevin-dalusons-projects/emanager"
     }
   ];
 
